@@ -1,7 +1,7 @@
 package Service;
 
-import V1.Exceptions.TransactionException;
-import V1.Models.BaseAccount;
+import Exceptions.TransactionException;
+import Models.BaseAccount;
 
 public class Transactions {
     public void transaction1(BaseAccount baseAccount, BaseAccount baseAccount1, int number) throws TransactionException  {

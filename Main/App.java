@@ -1,10 +1,10 @@
 package Main;
 
-import V1.Exceptions.InsufficientFundsException;
-import V1.Exceptions.TransactionException;
-import V1.Models.Account;
-import V1.Models.DebitAccount;
-import V1.Service.Transactions;
+import Exceptions.InsufficientFundsException;
+import Exceptions.TransactionException;
+import Models.Account;
+import Models.DebitAccount;
+import Service.Transactions;
 
 public class App {
     public static void main(String[] args) {

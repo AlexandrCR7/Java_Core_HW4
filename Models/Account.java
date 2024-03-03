@@ -1,7 +1,8 @@
 package Models;
 
 
-import V1.Exceptions.InsufficientFundsException;
+import Exceptions.InsufficientFundsException;
+import Exceptions.IllegalArgumentException;
 
 public class Account extends BaseAccount {
 
